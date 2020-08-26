@@ -1,12 +1,13 @@
 import React from "react";
 import Header from "./Header";
 
-const App = (props) => {
+const Dashboard = () => {
   return (
-    <div className="container">
+    <div>
       <Header />
-      {props.children}
+      You are logged in!
     </div>
   );
 };
-export default App;
+
+export default Dashboard;
